@@ -18,3 +18,17 @@ Then it **elaborates** the *any* entity with the name `*_tb`. In this case, that
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+## Demo for Submission
+
+The FPGA adding 0+0 => no output  
+![The FPGA adding 0+0 => no output](./Olivier_Demo_00.jpg)
+
+The FPGA adding 0+1 => Sum LED illuminated  
+![The FPGA adding 0+1 => Sum LED illuminated](./Olivier_Demo_01.jpg)
+
+The FPGA adding 1+0 => Sum LED illuminated  
+![The FPGA adding 1+0 => Sum LED illuminated](./Olivier_Demo_10.jpg)
+
+The FPGA adding 1+1 => Carry LED illuminated  
+![The FPGA adding 1+1 => Carry LED illuminated](./Olivier_Demo_11.jpg)
